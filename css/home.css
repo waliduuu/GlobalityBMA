@@ -34,9 +34,11 @@ body{
   width: 50px;
 }
 .gmb-image-container{
-text-align: center;
-height: 60vh;
+
 }
-.theimage{
+.img-1{
   
+}
+.body-1{
+  height: 100vh;
 }
