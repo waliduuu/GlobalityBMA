@@ -21,6 +21,18 @@ body{
   justify-content: end;
   margin-right: 50px;
 }
+.results:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pricing:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.portfolio:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 .title{
   font-family: 'Lilita One', sans-serif;
   margin-top: 70px;
@@ -99,4 +111,9 @@ body{
 
 .google-logo{
   height: 100px;
+  margin-top: 12px;
+}
+.img-cntrl img{
+  vertical-align: middle;
+  margin-bottom: 40px;
 }
