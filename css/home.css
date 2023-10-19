@@ -148,6 +148,10 @@ body{
 .sec-2{
   height: 100vh;
 }
+.sec-3{
+  height: 100vh;
+
+}
 
 .sec2start{
   padding-top: 60px;
@@ -158,7 +162,7 @@ body{
   padding-top: 50px;
   text-align: center;
   font-family: 'Lilita One', sans-serif;
-  font-size: 70px;
+  font-size: 50px;
 
 }
 html {
@@ -167,7 +171,40 @@ html {
 
 .animated-list{
   font-family: 'Lilita One', sans-serif;
-  font-size: 40px;
+  font-size: 20px;
   padding-left: 90px;
   padding-top: 20px;
+}
+.animated-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.trans{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+}
+.imgtrans1, .imgtrans2{
+  height: 170px;
+}
+.imgtrans1{
+  padding-left: 100px;
+}
+.imgtrans2{
+  padding-right: 100px;
+}
+.trans-element{
+  text-align: center;
+}
+.thetranstext{
+  font-family: 'Lilita One', sans-serif;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.introsec2{
+  font-family: 'Bellefair', serif;
+  text-align: center;
+  font-size: 40px;
+
 }
