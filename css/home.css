@@ -152,3 +152,22 @@ body{
 .sec2start{
   padding-top: 60px;
 }
+
+.weguartxt{
+  
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Lilita One', sans-serif;
+  font-size: 70px;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.animated-list{
+  font-family: 'Lilita One', sans-serif;
+  font-size: 40px;
+  padding-left: 90px;
+  padding-top: 20px;
+}
