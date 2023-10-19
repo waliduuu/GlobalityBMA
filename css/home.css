@@ -16,29 +16,87 @@ body{
 }
 
 .right-section{
-  column-gap: 6px;
-  width: 150px;
+  display: grid;
+  grid-template-columns: 70px 70px 70px;
+  justify-content: end;
+  margin-right: 50px;
+}
+.title{
+  font-family: 'Lilita One', sans-serif;
+  margin-top: 70px;
+  font-size: 50px;
+  text-align: center;
+  animation: fadeIn 2s ease forwards;
+  opacity: 0;
+} 
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slide in from bottom */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); /* Optional: Slide in to final position */
+  }
+}
+
+.wwd1{
+  font-family: 'Lilita One', sans-serif;
+  font-size: 25px;
+  animation: wwdfadeIn 2s ease forwards;
+  margin-top: 120px;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 350px;
-  
+
 
 }
-.results{
-  width: 50px;
-}
-.portfolio{
-  width: 50px;
-}
-.pricing{
-  width: 50px;
-}
-.gmb-image-container{
 
+@keyframes wwdfadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slide in from bottom */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); /* Optional: Slide in to final position */
+  }
 }
-.img-1{
-  width: 100%;
+.circle{
+  margin-top: 15px;
+  text-align: center;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+  display: inline-block;
 }
-.body-1{
-  height: 100vh;
+.trust-img{
+  height: 110px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.gmb-img{
+  height: 70px;
+}
+.the-gmb-img{
+  text-align: center;
+  margin-top: 29px;
+  animation: gmbimgfade 2s ease forwards;
+}
+@keyframes gmbimgfade {
+  0% {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Slide in from bottom */
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); /* Optional: Slide in to final position */
+  }
+}
+
+.google-logo{
+  height: 100px;
 }
