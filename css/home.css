@@ -228,4 +228,6 @@ html {
 }
 .arrow-img{
   text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
 }
