@@ -22,7 +22,11 @@ body{
   z-index: 100;
 
 }
-
+a{
+  color: white;
+  text-decoration: none;
+}
+  
 .right-section{
   display: grid;
   grid-template-columns: 70px 70px 70px;
