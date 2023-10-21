@@ -7,3 +7,40 @@ body{
 .stsec1{
     padding-top: 50px;
 }
+.Glplans{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 70px;
+
+}
+.plans-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.plan-title{
+    font-size: 30px;
+    font-family: 'Lilita One', sans-serif;
+
+}
+
+.mainpmt{
+    font-family: 'Lilita One', sans-serif;
+    font-size: 20px;
+}
+
+.subpst{
+    font-family: 'Bellefair', serif;
+
+}
+.placement-adj{
+    text-align: start ;
+}
+
+.plan1,.plan2{
+    border-right-style: dashed;
+    border-right-color: white;
+    border-right-width: 1px;
+}
