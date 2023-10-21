@@ -214,11 +214,11 @@ html {
   font-family: 'Bellefair', serif;
   text-align: center;
   font-size: 40px;
+  padding-top: 60px;
 
 }
 .trial:hover{
-  cursor: pointer;
-  text-decoration: underline;
+  
 }
 .trial{
   font-family: 'Bellefair', serif;
@@ -229,9 +229,20 @@ html {
 }
 .trial-sec-2-container{
   text-align: center;
+  padding-top: 35px;
 }
 .arrow-img{
   text-align: center;
+<<<<<<< HEAD
+}
+.d15{
+  color: blueviolet;
+}
+.d15:hover{
+  cursor: pointer;
+  text-decoration: underline;
+=======
   padding-left: 12px;
   padding-right: 12px;
+>>>>>>> 7a64dd97884479b98976882f3f1ba0ef4d982219
 }
