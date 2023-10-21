@@ -22,6 +22,10 @@ body{
   z-index: 100;
 
 }
+.globality-home-button:hover{
+  color: rgb(64, 2, 88);
+
+}
 a{
   color: white;
   text-decoration: none;
