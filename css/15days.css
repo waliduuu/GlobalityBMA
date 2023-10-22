@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  color: white;
+}
+.frame{
+  width: 100%;
+}
+.headerintro{
+  padding-top: 70px;
+  text-align: center;
+}
+.titleapply{
+  font-family: 'Lilita One', sans-serif;
+font-size: 40px;
+}
+.fillouttext{
+  padding-top: 12px;
+  font-family: 'Bellefair', serif;
+
+} 
