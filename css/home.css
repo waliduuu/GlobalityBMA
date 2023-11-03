@@ -1,7 +1,13 @@
 @media (max-width: 768px) {
   /* CSS rules for screens up to 768px wide (typical mobile screens) */
 }
-
+body{
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    margin: 0 auto;    /* Center the container */
+  }
+}
 body{
   background-color: black;
   color: white;
