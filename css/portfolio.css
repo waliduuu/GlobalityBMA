@@ -19,10 +19,37 @@ body{
 }
 .pdf{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 50px;   
 }
+.pdfmd{
+    text-align: center;
+    padding-top: 50px;   
+}
+
 p{
     margin-top: 0;
     margin-bottom: 0;
 }
-
+.apply-button{
+    display: inline-block;
+    height: 50px;
+    width: 140px;
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+.apply-button:hover{
+    color: white;
+    background-color: black;
+    border-color: white;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;}
+.btn-container{
+    text-align: center;
+    padding-top: 40px;
+}
