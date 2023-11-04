@@ -1,8 +1,25 @@
+@media (max-width: 1170px) {
+
+.plans-container{
+    display: flex;
+    flex-direction: column;
+}
+.plan1,.plan2,.plan3{
+
+}
+
+
+
+}
+
+
+
+
+
 body{
     background-color: black;
 }
 .section{
-    height: 100vh;
 }
 .stsec1{
     padding-top: 50px;
@@ -14,11 +31,23 @@ body{
     font-size: 70px;
     padding-top: 80px;
 }
+@media (max-width: 1170px) {
+    .Glplans{
+        
+        font-size: 40px;
+        
+    }
+}
+
 .plans-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
+}
+
+.plan1, .plan2, .plan3{
+    flex: 1;
 }
 .plan-title{
     font-size: 30px;
@@ -47,9 +76,15 @@ body{
     border-right-width: 1px;
 
 }
-.plan-container{
-    height: 600px;
+@media (max-width: 1170px) {
+    .plan1,.plan2{
+        border: none;
+    }
 }
+.plan-container{
+    height: 580px;
+}
+
 .price{
     display: inline;
     border-right-style: dashed;
@@ -58,6 +93,19 @@ body{
     padding-right: 20px;
     margin-right: 12px;
 }
+@media (max-width: 1170px) {
+    .plan-container1{
+        height: 420px;
+    }
+    .plan-container2{
+        
+    }
+    .plan-container3{
+        height: 420px;
+
+    }
+}
+
 
 .apply-butt{
     height: 40px;
@@ -94,3 +142,34 @@ body{
 
 
 }
+
+
+.plans-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Media query for phones (e.g., screens with a max-width of 768px) */
+  @media (max-width: 1170px) {
+    .plans-container {
+      flex-direction: column; /* Change to a column layout for phones */
+      align-items: center; /* Center the content horizontally in the column layout */
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

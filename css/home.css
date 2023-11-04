@@ -1,36 +1,54 @@
 @media (max-width: 1170px) {
-  .title {
-    font-size: 18px; /* Adjust this to the size you want for smaller screens */
-  }
-
-  .wwd1 div{
-    font-size: 12px;
-  }
-  .circle{
-    height: 100px;
-    width: 100px;
-    border-radius: 150px;
-  }
+  
+.right-section{
+  font-size: 10px;
+}
+.the-gmb-img{
+  margin-top: 0px;
+}
+.wwd1 div{
+  font-size: 12px;
+}
 
 
-  .gmbplus{
-    display: flex;
-    justify-content: center;
-    flex-direction: column  ;
 
-  }
+.weguartxt div{
+  font-size: 30px;
 
-  .circle{
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-  }
-  .trust-img{
-    height: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-  }
+}
+.animated-list div{
+  font-size: 13px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.sec-1{
+  height: 100vh;
+}
+.sec-2{
+  height: 100vh;
+}
+.sec-3{
+  height: 100vh;
 
 }
 
@@ -105,7 +123,7 @@ a{
 }
 .title{
   font-family: 'Lilita One', sans-serif;
-  padding-top: 100px;
+  padding-top: 40px;
   font-size: 50px;
   text-align: center;
   animation: fadeIn 2s ease forwards;
@@ -132,14 +150,16 @@ a{
   font-family: 'Lilita One', sans-serif;
   font-size: 25px;
   animation: wwdfadeIn 2s ease forwards;
-  padding-top: 70px;
+  padding-top: 50px;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row;  
 }
 .getfound, .buildtrust,.learn{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -155,18 +175,20 @@ a{
 }
 .circle{
   margin-top: 15px;
-  text-align: center;
   background-color: white;
-  height: 150px;
-  width: 150px;
-  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 150px;
   display: inline-block;
 }
 .trust-img{
-  height: 110px;
+  height: 70px;
   display: block;
   margin: auto;
   margin-top: 20px;
+
+}
+.modd{
 }
 .gmb-img{
   height: 70px;
@@ -214,16 +236,7 @@ a{
   background-color: black;
   border-color: white;
 }
-.sec-1{
-  height: 100vh;
-}
-.sec-2{
-  height: 100vh;
-}
-.sec-3{
-  height: 100vh;
 
-}
 
 .sec2start{
   padding-top: 60px;
@@ -231,7 +244,7 @@ a{
 
 .weguartxt{
   
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
   font-family: 'Lilita One', sans-serif;
   font-size: 50px;
@@ -269,7 +282,6 @@ html {
 .thetranstext{
   font-family: 'Lilita One', sans-serif;
   font-size: 30px;
-  padding-bottom: 1 0px;
 }
 .introsec2{
   font-family: 'Bellefair', serif;
@@ -297,7 +309,7 @@ html {
   flex: 1;
 }
 .ar-img{
-  height: 85px;
+  height: 55px;
 
 }
 .d15{
@@ -311,17 +323,30 @@ html {
 }
 
 .gmbplus{
+  
   display: flex;
   justify-content: center;
   flex-direction: row  ;
-  margin: auto;
-  height: 300px;
   width: 1000px;
-  column-gap: 20px;
-  background-color: white;
+  margin: auto;  
   color: black;
   transform: scale(1); /* Initial size */
   transition: transform 0.6s;
+}
+@media (max-width: 1170px) {
+  .gmbplus{
+    
+  display: flex;
+  justify-content: center;
+  flex-direction: column  ;
+  width: 300px;
+  column-gap: 332px;
+
+  }
+  .goptimize{
+    background-color: white;
+    margin-top: 12px;
+  }
 }
 .gmbpluscontainer{
   text-align: center;
@@ -356,6 +381,9 @@ html {
     cursor: pointer;
     
 }
+.goptimize{
+  background-color: white;
+}
 .goptimize :hover{
   transform: scale(1);
 }
@@ -387,3 +415,15 @@ html {
   font-size: 45px;
   animation: wwdfadeIn 2s ease forwards;
 }
+
+
+
+
+
+
+
+
+
+
+
+
