@@ -3,55 +3,10 @@
     font-size: 18px; /* Adjust this to the size you want for smaller screens */
   }
 
-
-
-.circle{
-  margin-top: 15px;
-  text-align: center;
-  background-color: white;
-  height: 30px;
-  width: 130px;
-  border-radius: 180px;
-  display: inline-block;
-}
-.trust-img{
-  height: 80px;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-}
-
-.trans{
-  display: flex;
-  flex-direction: column;
-  padding-top: 40px;
-  text-align: center;
-}
-.imgtrans1, .imgtrans2{
-  height: 80px;
-}
-
-.trans-element{
-  text-align: center;
-  flex: 1;
-}
-.thetranstext{
-  font-family: 'Lilita One', sans-serif;
-  font-size: 25px;
-  padding-bottom: 30px;
-}
-
-
-.wwd1{
-  font-family: 'Lilita One', sans-serif;
-  font-size: 20px;
-  animation: wwdfadeIn 2s ease forwards;
-  padding-top: 70px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
+  .learn div{
+    font-size: 12px;
+  }
   
-}
 
 
 
