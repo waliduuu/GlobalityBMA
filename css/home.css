@@ -18,9 +18,19 @@
     justify-content: center;
     flex-direction: column  ;
 
+  }
 
-
-
+  .circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+  }
+  .trust-img{
+    height: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
 
 }
 
