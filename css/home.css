@@ -67,6 +67,11 @@ a{
   animation: fadeIn 2s ease forwards;
   opacity: 0;
 } 
+@media (max-width: 1170px) {
+  .title {
+    font-size: 18px; /* Adjust this to the size you want for smaller screens */
+  }
+}
 
 @keyframes fadeIn {
   0% {
