@@ -13,9 +13,12 @@ body{
   color: white;
 }
 .header{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   text-align: center;
+}
+.left-section, .right-section, .mid-section{
+  flex: 1;
 }
 .header{
   align-items: center;
@@ -47,16 +50,18 @@ a{
   flex-direction: row;
   justify-content: end;
   padding-right: 15px;
-  
 }
+
 .pricing, .results, .portfolio{
   flex: 1;
   padding-left: 12px;
 }
+
 .results:hover{
   text-decoration: underline;
   cursor: pointer;
 }
+
 .pricing:hover{
   text-decoration: underline;
   cursor: pointer;
