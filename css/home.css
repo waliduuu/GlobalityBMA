@@ -1,5 +1,29 @@
-@media (max-width: 768px) {
-  /* CSS rules for screens up to 768px wide (typical mobile screens) */
+@media (max-width: 1170px) {
+  .title {
+    font-size: 18px; /* Adjust this to the size you want for smaller screens */
+  }
+
+
+
+.circle{
+  margin-top: 15px;
+  text-align: center;
+  background-color: white;
+  height: 130px;
+  width: 130px;
+  border-radius: 180px;
+  display: inline-block;
+}
+.trust-img{
+  height: 80px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+
 }
 body{
 
