@@ -13,6 +13,11 @@
   }
 
 
+  .gmbplus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+
 
 
 
@@ -296,9 +301,9 @@ html {
 }
 
 .gmbplus{
-  display: grid;
+  display: flex;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  flex-direction: row  ;
   margin: auto;
   height: 300px;
   width: 1000px;
