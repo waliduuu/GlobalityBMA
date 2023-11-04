@@ -42,10 +42,16 @@ a{
 }
   
 .right-section{
-  display: grid;
-  grid-template-columns: 70px 70px 70px;
+
+  display: flex;
+  flex-direction: row;
   justify-content: end;
-  margin-right: 50px;
+  padding-right: 15px;
+  
+}
+.pricing, .results, .portfolio{
+  flex: 1;
+  padding-left: 12px;
 }
 .results:hover{
   text-decoration: underline;
@@ -209,21 +215,18 @@ html {
 
 }
 .trans{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   padding-top: 40px;
+  text-align: center;
 }
 .imgtrans1, .imgtrans2{
   height: 100px;
 }
-.imgtrans1{
-  padding-left: 100px;
-}
-.imgtrans2{
-  padding-right: 100px;
-}
+
 .trans-element{
   text-align: center;
+  flex: 1;
 }
 .thetranstext{
   font-family: 'Lilita One', sans-serif;
@@ -253,6 +256,7 @@ html {
 }
 .arrow-img{
   text-align: center;
+  flex: 1;
 }
 .d15{
   color: blueviolet;
