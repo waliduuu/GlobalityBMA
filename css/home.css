@@ -235,8 +235,8 @@ html {
 }
 .trans{
   display: flex;
-  flex-direction: row;
-  padding-top: 40px;
+  flex-direction: column;
+  padding-top: 0px;
   text-align: center;
 }
 .imgtrans1, .imgtrans2{
@@ -250,13 +250,13 @@ html {
 .thetranstext{
   font-family: 'Lilita One', sans-serif;
   font-size: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 1 0px;
 }
 .introsec2{
   font-family: 'Bellefair', serif;
   text-align: center;
   font-size: 40px;
-  padding-top: 60px;
+  padding-top: 10px;
 
 }
 .trial:hover{
@@ -276,6 +276,10 @@ html {
 .arrow-img{
   text-align: center;
   flex: 1;
+}
+.ar-img{
+  height: 85px;
+
 }
 .d15{
   color: blueviolet;
