@@ -49,6 +49,8 @@
 }
 .sec-3{
   height: 100vh;
+  width: 100%;
+  background-color: lightpink ;
 
 }
 
@@ -188,8 +190,7 @@ a{
   margin-top: 20px;
 
 }
-.modd{
-}
+
 .gmb-img{
   height: 70px;
 }
@@ -290,9 +291,7 @@ html {
   padding-top: 10px;
 
 }
-.trial:hover{
-  
-}
+
 .trial{
   font-family: 'Bellefair', serif;
   font-size: 30px;
@@ -333,6 +332,8 @@ html {
   transform: scale(1); /* Initial size */
   transition: transform 0.6s;
 }
+
+
 @media (max-width: 1170px) {
   .gmbplus{
     
@@ -346,6 +347,7 @@ html {
   .goptimize{
     background-color: white;
     margin-top: 12px;
+
   }
 }
 .gmbpluscontainer{
@@ -383,6 +385,9 @@ html {
 }
 .goptimize{
   background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
 }
 .goptimize :hover{
   transform: scale(1);
@@ -415,11 +420,6 @@ html {
   font-size: 45px;
   animation: wwdfadeIn 2s ease forwards;
 }
-
-
-
-
-
 
 
 
