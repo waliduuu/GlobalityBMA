@@ -53,3 +53,16 @@ p{
     text-align: center;
     padding-top: 40px;
 }
+
+.pdf-download{
+    padding-top: 50px;
+    text-align: center;
+}
+.pdf-download-link{
+    text-decoration: underline;
+    color: blue;
+}
+.pdf-download-link:hover{
+    text-decoration: underline;
+    color: red;
+}
