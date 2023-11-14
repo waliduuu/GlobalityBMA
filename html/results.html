@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/results.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  
+
+
+
+
+
+
+
+  <style>
+    body {
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .slider-container {
+        position: relative;
+        width: 3000px; /* Adjust the width as needed */
+        overflow: hidden;
+        border: 1px solid #ddd; /* Optional border */
+    }
+
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Optional navigation buttons */
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+
+    .prev { left: 0; }
+    .next { right: 0; }
+</style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+  <div class="header">
+    
+    <div class="left-section"></div>
+  
+    <a href="../index.html"><div class="mid-section"><span class="globality-home-button">Globality</span></div></a>
+  
+    <div class="right-section">
+       
+      <a href="../html/results.html"><div class="results">results</div></a>
+      <a href="../html/pricing.html"><div class="pricing">pricing</div></a>
+      <a href="../html/portfolio.html"><div class="portfolio">portfolio</div></a>
+      
+    </div>
+  </div>
+
+
+  <div class="slider-container">
+    <div class="slides">
+        <div class="slide"><img src="../img/results/1.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="../img/results/2.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="../img/results/3.jpg" alt="Image 3"></div>
+        <div class="slide"><img src="../img/results/4.jpg" alt="Image 3"></div>
+        <!-- Add more slides as needed -->
+    </div>
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+</div>
+
+<script>
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelector('.slides');
+        const totalSlides = document.querySelectorAll('.slide').length;
+        currentSlide = (index + totalSlides) % totalSlides;
+        const translateValue = -currentSlide * 100 + '%';
+        slides.style.transform = `translateX(${translateValue})`;
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+</script>
+  
+</body>
+</html>
