@@ -376,7 +376,7 @@ html {
     
 }
 .goptimize{
-  background-color: white;
+  background-color: purple;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 9px;
@@ -454,4 +454,23 @@ html {
 }
 
 
+/* Define your animation */
+@keyframes animateLink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply animation to the link */
+#animatedLink {
+  animation-duration: 0.5s;
+  animation-name: animateLink;
+  animation-fill-mode: forwards;
+}
 
